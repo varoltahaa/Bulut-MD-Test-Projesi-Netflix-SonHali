@@ -20,7 +20,7 @@ const App = () => {
           <Route path="/serias" element={<Serias />} />
         </Routes>
       </Row>
-      <Row>
+      <Row> 
         <Footer />
       </Row>
     </div>
