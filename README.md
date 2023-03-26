@@ -1,3 +1,11 @@
+# Projeyi zip dosyası olarak indirip açtıktan sonra terminal ekranından projenin olduğu dizine gelip "yarn install" komutu ile node-modules klasörlerini yükleyin.
+# Yükledikten sonra tekrar terminalden "cd api" komutu ile test case de belirtilmiş olan veri setinin olduğu json dosyasının dizinine gelin.
+# Terminalde "api" dizininin içindeyken "json-server --watch sample.json" komutu ile veri setini localhost da çalıştırın. Default 3000 portta çalışır.
+# Veri setini çalıştırdıkdan sonra "cd.." komutu ile proje kodlarının olduğu dizine gelip yarn start diyerek projeyi çalıştırabilirsiniz.
+# Projede 3000 portta çalışmak isteyecektir fakat json-server çalıştığı için bu olmaz. eğer gelen seçim ekranında "y" tuşuna basarak devam ederseniz farklı portta çalışır. 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
