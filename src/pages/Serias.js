@@ -5,7 +5,7 @@ import { handleSearch, handleSort } from "../utils/helper";
 export default function Serias() {
   const [series, setSeries] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
-  const [sortType, setSortType] = useState("asc");
+  const [sortType, setSortType] = useState("");
 
   useEffect(() => {
     getSeries().then((data) => setSeries(data));
