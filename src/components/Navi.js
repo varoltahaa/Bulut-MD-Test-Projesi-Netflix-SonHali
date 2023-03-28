@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Navi = () => {
   return (
     <div>
@@ -14,8 +14,12 @@ const Navi = () => {
         </div>
         <nav className="main-nav">
           <a href="/">Home</a>
-          <a href="/serias">Serias</a>
-          <a href="/movies">Movies</a>
+          <Link to="serias">
+          <a>Series</a>
+          </Link>
+          <Link to="movies">
+          <a>Movies</a>
+          </Link>
         </nav>
         <nav className="sub-nav">
           <a href="#">Account</a>

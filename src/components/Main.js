@@ -22,7 +22,7 @@ const Main = () => {
                 src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p2.PNG?raw=true"
                 alt=""
               ></img>
-              Serias
+              Series
             </a>
           </Link>
         </div>
