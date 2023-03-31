@@ -5,6 +5,8 @@
   --dark: 	#686868;
 }
 
+
+
 html {
   width: 100vw;
   min-height: 100vh;
@@ -18,6 +20,8 @@ html {
 }
 body{
   background-color: #141414;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 img {
@@ -114,7 +118,8 @@ header {
 
 .main-container {
   background-color: #141414;
-  padding: 50px;
+  padding: 40px;
+  
   
 }
 
@@ -122,9 +127,11 @@ header {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(6, minmax(100px, 1fr));
-  margin-left: 1%;
+
   margin-top: 2%;
 }
+
+
 .dropdown{
   float: right;
   margin-right: 5%;
@@ -140,8 +147,8 @@ input {
   color: white; 
   background-color: #141414; 
   border-radius: 10px; 
-  padding: 10px; 
-  width: 300px;
+  padding: 6px; 
+  width: 280px;
  
 
 }
@@ -158,6 +165,9 @@ input {
 .link {
   background-color: #141414;
   padding: 50px;
+}
+#main {
+  margin-left: 3%;
 }
 
 .sub-links ul {
