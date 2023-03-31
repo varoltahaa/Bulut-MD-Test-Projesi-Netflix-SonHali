@@ -48,7 +48,7 @@ const Footer = () => {
 
       <footer>
         <p> 1997-2018 Netflix, Inc.</p>
-        <p>Taha Osman Varol 2018</p>
+        <p>Taha Osman Varol 2023</p>
       </footer>
     </div>
   );
