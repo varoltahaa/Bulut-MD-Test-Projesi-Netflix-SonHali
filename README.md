@@ -1,4 +1,4 @@
-# Deploy Edildi : https://6422a853e063b3355646de3e--vocal-crostata-ee32e9.netlify.app/
+# Deploy Edildi : https://642722a85c8db10087b93496--papaya-entremet-2005b1.netlify.app/
 # Projeyi zip dosyası olarak indirip açtıktan sonra terminal ekranından projenin olduğu dizine gelip "yarn install" komutu ile node-modules klasörlerini yükleyin.
 # Yükledikten sonra tekrar terminalden "cd api" komutu ile test case de belirtilmiş olan veri setinin olduğu json dosyasının dizinine gelin.
 # Terminalde "api" dizininin içindeyken "json-server --watch sample.json" komutu ile veri setini localhost da çalıştırın. Default 3000 portta çalışır.
