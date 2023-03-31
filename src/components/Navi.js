@@ -12,7 +12,7 @@ const Navi = () => {
             ></img>
           </a>
         </div>
-        <nav className="main-nav">
+        <nav className="main-nav ">
           <a href="/">Home</a>
           <Link to="serias">
           <a>Series</a>

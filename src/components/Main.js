@@ -4,25 +4,26 @@ import { Link } from "react-router-dom";
 const Main = () => {
   return (
     <section className="main-container">
-      <div className="location" id="home">
+      <div className="location" id="home" >
         <h1 id="home">Categories</h1>
-        <div className="box">
+        <div className="box" id="main">
           <Link to="movies">
-            <a href="">
-              <img
-                src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p2.PNG?raw=true"
+            <a href="" >
+              <img 
+                src="https://upload.wikimedia.org/wikipedia/en/9/98/U2_Innocence_%2B_Experience_-_Live_in_Paris_video_cover.jpg"
                 alt=""
               ></img>
-              Movies
+              <h2>Movies</h2>
+              
             </a>
           </Link>
-          <Link to="serias">
+          <Link to="serias" >
             <a href="">
               <img
-                src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p2.PNG?raw=true"
+                src="https://upload.wikimedia.org/wikipedia/en/e/eb/Wolfcreek.png"
                 alt=""
               ></img>
-              Series
+              <h2>Series</h2>
             </a>
           </Link>
         </div>
