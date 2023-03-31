@@ -19,6 +19,7 @@ export default function Serias() {
     setSortType(event.target.value);
   };
 
+
   const filteredSeries = handleSearch(searchTerm, series);
   const sortedSeries = handleSort(sortType, filteredSeries);
   const seriesToDisplay = sortedSeries.slice(0, 18);
@@ -70,7 +71,7 @@ export default function Serias() {
         </div>
         <input
           type="text"
-          placeholder="Search movies..."
+          placeholder="Search series..."
           value={searchTerm}
           onChange={handleSearchInputChange}
         />
@@ -88,3 +89,4 @@ export default function Serias() {
     </section>
   );
 }
+
