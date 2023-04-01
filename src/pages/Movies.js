@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { getMovies } from "../services/api";
 import { handleSearch, handleSort } from "../utils/helper";
 
-export default function Serias() {
+export default function Movies() {
   //movies: Filmlerin listesini tutan state değişkenidir. İlk başta boş bir dizi ile başlatılır ve daha sonra getMovies() fonksiyonu ile bu değişkene değer atanır.
   const [movies, setMovies] = useState([]);
   //searchTerm: Arama çubuğundaki kullanıcının girdiği metni tutan state değişkenidir. 
