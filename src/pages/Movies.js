@@ -34,7 +34,9 @@ export default function Movies() {
   //"sortedMovies" değişkeni, "handleSort" yardımcı fonksiyonunu kullanarak "filteredMovies" dizisini "sortType" değişkeninin değerine göre sıralar
   const sortedMovies = handleSort(sortType, filteredMovies);
   //"moviesToDisplay" değişkeni, sıralanmış "sortedMovies" dizisinin ilk 18 öğesini içerir. Böylece sayfada sadece ilk 18 film gösterilir.
-  const moviesToDisplay = sortedMovies.slice(0, 18);
+  // Burada kullanıdığımız "Ternary Operator" ü ile "searchTerm" değişkeni eğer true ise yani dolu ise sortedMovies dizisini döndürür değilse ilk 18 veriyi getirir.
+  //Bu sayede inputta değer yokken 18 veriyi sıralayabiliyoruz inputa değer girilince ise tüm veri üzerinden yapılan aramayı ekrana yansıtabiliyoruz
+  const moviesToDisplay = searchTerm ? sortedMovies : sortedMovies.slice(0, 18)
 
   return (
     <section className="main-container">

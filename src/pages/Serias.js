@@ -22,7 +22,7 @@ export default function Serias() {
 
   const filteredSeries = handleSearch(searchTerm, series);
   const sortedSeries = handleSort(sortType, filteredSeries);
-  const seriesToDisplay = sortedSeries.slice(0, 18);
+  const seriesToDisplay = searchTerm ? sortedSeries : sortedSeries.slice(0, 18)
 
   return (
     <section className="main-container">
@@ -89,4 +89,6 @@ export default function Serias() {
     </section>
   );
 }
+
+
 
