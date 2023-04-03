@@ -1,4 +1,4 @@
-# Deploy Edildi : https://heartfelt-fudge-7d40f5.netlify.app/
+# Deploy Edildi : https://peaceful-youtiao-54c122.netlify.app/
 # Projeyi zip dosyası olarak indirip açtıktan sonra terminal ekranından projenin olduğu dizine gelip "yarn install" komutu ile node-modules klasörlerini yükleyin.
 # Yükledikten sonra tekrar terminalden "cd api" komutu ile test case de belirtilmiş olan veri setinin olduğu json dosyasının dizinine gelin.
 # Terminalde "api" dizininin içindeyken "json-server --watch sample.json" komutu ile veri setini localhost da çalıştırın. Default 3000 portta çalışır.
